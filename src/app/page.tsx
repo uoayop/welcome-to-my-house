@@ -1,22 +1,40 @@
+import InfoIcon from '../components/InfoIcon';
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
-        <h1>우리 집에 어서와</h1>
-      </div>
-      <div>
-        <p>일시 | 2024년 1월-3월 중 님 가능할 때</p>
-        <p>장소 | 서울특별시 내가 알려준 주소</p>
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+          제 1회 집들이 초대장
+        </h1>
+        <div className="mt-10 text-lg bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium">
+          <p>
+            <span className="text-lime-400">doyeon</span>:~
+            <span className="text-sky-500">$</span>
+            &nbsp;echo&nbsp;$일시
+          </p>
+          <p>님 가능할 때</p>
+          <p>
+            <span className="text-lime-400">doyeon</span>:~<span className="text-sky-500">$</span>
+            &nbsp;echo&nbsp;$장소
+          </p>
+          <p>서울특별시 알려드린 그 주소</p>
+        </div>
       </div>
       <div>지도</div>
-      <div>
-        <p>따뜻한 온실 속에서 자라온지 어언 25년..</p>
+      <div className="text-gray-900 font-OGRenaissance tracking-tight  text-xl sm:text-2xl">
+        <p>따뜻한 온실 속에서 자라온지 어언 26년..</p>
+        <br />
         <p>왕복 4시간 출퇴근에 지친 어느 날 마참내! 결심을 하였습니다.</p>
         <p>저의 첫번째 자취를 축하해주시궜어요?</p>
-        <p>would you?</p>
+        <br />
+        <p className="italic text-2xl sm:text-3xl">would you...?</p>
       </div>
       <div>
-        <h3>주의사항</h3>
+        <h2 className="flex text-xl mt-10">
+          <span>주의사항&nbsp;</span>
+          <InfoIcon />
+        </h2>
         <p>1. 집들이 선물 준비하시면 출입이 어려우세요 :pray:</p>
         <p>2. 서울 집 값이 만만치 안더라고요? 방이 생각보다 좁아도 놀라지 마세요. :)</p>
         <p>3. 옆 집에 주인집이 살고있어요. 방음은 잘 되지만 쉿! 목소리 조금만 작게..!</p>
