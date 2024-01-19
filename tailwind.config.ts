@@ -17,6 +17,9 @@ const config: Config = {
     },
     fontFamily: {
       OGRenaissance: ["OGRenaissance"],
+      YClover: ["YClover"],
+      SDKukdetopokki: ["SDKukdetopokki"],
+      LeeSeoyun: ["LeeSeoyun"]
     },
   },
   plugins: [],
