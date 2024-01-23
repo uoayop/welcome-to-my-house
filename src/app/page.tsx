@@ -64,6 +64,15 @@ export default function Home() {
           </ol>
         </div>
       </div>
+      <div className="pt-10">
+        <a href="https://hits.seeyoufarm.com">
+          <img
+            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwelcome-to-my-house.vercel.app&count_bg=%235192B0&title_bg=%23E3E3E3&icon=&icon_color=%23E7E7E7&title=%F0%9F%8F%A0&edge_flat=false"
+            alt="얼마나 다녀갓게요"
+            width={80}
+          />
+        </a>
+      </div>
     </main>
   );
 }
