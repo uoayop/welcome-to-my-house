@@ -9,7 +9,7 @@ const KakaoMap = () => {
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
       <Map center={{ lat: 37.46762, lng: 126.94551 }} style={{ width: '530px', height: '350px' }}>
         <MapMarker position={{ lat: 37.46762, lng: 126.94551 }}>
-          <div className="text-xs p-2 rounded">요 근처랍니다 (어디게요)</div>
+          <div className="text-xs p-2 rounded text-gray-900">요 근처랍니다 (어디게요)</div>
         </MapMarker>
       </Map>
     </div>
