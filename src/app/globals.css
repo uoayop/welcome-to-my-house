@@ -22,6 +22,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  color: #fff;
+  padding: 10px;
+}
+
 @font-face {
   font-family: 'OGRenaissance';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/OG_Renaissance_Secret-Rg.woff2')

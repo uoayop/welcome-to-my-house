@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex w-full h-full min-h-screen max-h-full flex-col items-center justify-evenly  md:p-24 p-3 py-10 overflow-x-hidden">
       <div>
-        <h1 className="text-4xl font-YClover font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl pt-5">
+        <h1 className="text-4xl font-YClover font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl pt-5">
           제 1회 집들이 초대장
         </h1>
         <div className="mt-10 text-lg bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium">
@@ -24,13 +24,15 @@ export default function Home() {
         </div>
       </div>
       <KakaoMap />
-      <div className="text-gray-900 font-OGRenaissance break-keep tracking-tight text-xl sm:text-2xl  text-center md:text-left flex flex-col items-center">
+      <div className="text-gray-900  dark:text-white font-OGRenaissance break-keep tracking-tight text-xl sm:text-2xl inline-block text-center md:text-left flex flex-col items-center">
         <p>따뜻한 온실 속에서 자라온지 어언 26년..</p>
         <br />
         <p>왕복 4시간 출퇴근에 지친 어느 날 마참내! 결심을&nbsp;하였습니다.</p>
         <p>저의 첫번째 자취를 축하해주시궜어요?</p>
         <br />
-        <p className="font-SDKukdetopokki italic text-2xl sm:text-3xl">would you...?</p>
+        <p className="font-SDKukdetopokki italic text-2xl sm:text-3xl rainbow-text animate-pulse">
+          would you...?
+        </p>
         <Image
           src="/prodo.png"
           alt="해주시궛어요?"
@@ -39,7 +41,7 @@ export default function Home() {
           className="animate-wiggle pt-3"
         />
       </div>
-      <div className="font-LeeSeoyun break-keep mt-7">
+      <div className="font-LeeSeoyun break-keep mt-7 p-3">
         <h2 className="flex text-2xl mt-10 text-center">
           <span>주의사항&nbsp;</span>
           <InfoIcon />
